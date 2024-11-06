@@ -13,4 +13,5 @@ Aplikasi kami menampilkan cara seorang customer restoran untuk memesan suatu men
 3. Disediakan Form Feedback
 
 # Flowchart
-https://drive.google.com/file/d/1fXy45ljUoYXMxLoR92hLPnzNW8KrPOR9/view?usp=sharing
+![Flowchart restoran-Halaman-1 drawio](https://github.com/user-attachments/assets/ede18a94-ad40-496d-86b3-b84cd1b2b613)
+
