@@ -11,3 +11,6 @@ Aplikasi kami menampilkan cara seorang customer restoran untuk memesan suatu men
 1. Disediakan menu untuk pelanggan
 2. Disediakan cara untuk membayarnya
 3. Disediakan Form Feedback
+
+# Flowchart
+
