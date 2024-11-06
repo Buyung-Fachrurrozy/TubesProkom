@@ -13,4 +13,4 @@ Aplikasi kami menampilkan cara seorang customer restoran untuk memesan suatu men
 3. Disediakan Form Feedback
 
 # Flowchart
-
+https://drive.google.com/file/d/1fXy45ljUoYXMxLoR92hLPnzNW8KrPOR9/view?usp=sharing
