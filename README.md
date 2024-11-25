@@ -5,7 +5,7 @@
 3. I0324022, Rafeyfa Asyla Suryawan, Rafeyfa-Asyla
 
 # Deskripsi
-Aplikasi kami menampilkan cara seorang customer restoran dalam proses pemesanan menu. Restoran menawarkan beragam pilihan makanan dan minuman yang dapat dipilih sesuai preferensi pelanggan. Melalui aplikasi ini, pengguna dapat dengan mudah melihat, memilih, dan memesan menu berdasarkan kategori dan jumlah porsi yang tersedia. Selain itu, aplikasi ini menyediakan berbagai metode pembayaran yang fleksibel dan praktis, memungkinkan pelanggan menyelesaikan transaksi dengan cepat dan nyaman. Serta disediakan feedback form bagi customer sehingga pihak restoran dapat terus meningkatkan kinerjanya.
+Aplikasi kami menampilkan cara seorang customer restoran dalam proses pemesanan menu. Restoran menawarkan beragam pilihan makanan dan minuman yang dapat dipilih sesuai preferensi customer. Melalui aplikasi ini, pengguna dapat dengan mudah melihat, memilih, dan memesan menu berdasarkan kategori yang tersedia dan jumlah porsiyang diinginkan. Selain itu, aplikasi ini menyediakan berbagai metode pembayaran yang fleksibel dan praktis, memungkinkan pelanggan menyelesaikan transaksi dengan cepat dan nyaman.
 
 # Fitur-Fitur Aplikasi
 1. Disediakan menu makanan dan minuman untuk customer
