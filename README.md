@@ -14,5 +14,6 @@ Aplikasi kami menampilkan cara seorang customer restoran dalam proses pemesanan 
 4. Disediakan detail transaksi 
 
 # Flowchart
-![Flowchart restoran-Halaman-1 drawio](https://github.com/user-attachments/assets/ede18a94-ad40-496d-86b3-b84cd1b2b613)
+![Flowchart Restoran Wenaak-SubProgram Login Restoran Wenaak (1)](https://github.com/user-attachments/assets/5adae43f-31fb-4a6a-a2ce-cfdd19827f24)
+![Flowchart Restoran Wenaak-Flowchart Program](https://github.com/user-attachments/assets/e3dde9b6-f993-4e12-85a9-544a538b469d)
 
