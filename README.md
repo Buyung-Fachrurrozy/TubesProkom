@@ -15,7 +15,8 @@ Aplikasi kami menampilkan cara seorang customer restoran dalam proses pemesanan 
 
 # Flowchart
 <img width="325" alt="Flowchart Program Pemesanan" src="https://github.com/user-attachments/assets/74dbc128-83aa-4cda-9ce1-8e20cc76ab8f">
-  (Flowchart Revisi)
+
+# Flowchart Revisi
 ![Flowchart Restoran Wenaak-SubProgram Login Restoran Wenaak (1)](https://github.com/user-attachments/assets/5adae43f-31fb-4a6a-a2ce-cfdd19827f24)
 ![Flowchart Restoran Wenaak-Flowchart Program](https://github.com/user-attachments/assets/e3dde9b6-f993-4e12-85a9-544a538b469d)
 
