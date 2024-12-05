@@ -25,7 +25,7 @@ Aplikasi Restoran Wenaak dapat diakses oleh pelanggan dan koki. Restoran menawar
 ![Flowchart Restoran Wenaak-SubProgram Login Restoran Wenaak drawio](https://github.com/user-attachments/assets/ebcc6f4d-f5ef-4a97-b8f5-07a387a20fe6)
 ![Flowchart Restoran Wenaak-Flowchart Program drawio](https://github.com/user-attachments/assets/f9b49a59-3401-4e03-beb0-69ce9fbc2f98)
 
-# Flowchart Revisi 2
+# Flowchart Revisi 2 (FIX)
 ![Flowchart Restoran Wenaak](https://github.com/user-attachments/assets/8459cc72-4828-49ee-ba50-1c2ade047171)
 
 # SiteMap
