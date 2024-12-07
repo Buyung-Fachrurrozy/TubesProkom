@@ -16,7 +16,8 @@ Aplikasi Restoran Wenaak dapat diakses oleh pelanggan dan koki. Restoran menawar
 6. Ditampilkan daftar dan total harga pesanan.
 7. Pelanggan melanjutkan ke proses pembayaran.
 8. Berbagai macam metode pembayaran tersedia, seperti transfer bank, QRIS, dan pembayaran tunai.
-9. Jika Koki, akan ditampilkan database username, password, dan daftar Pesanan milik Pelanggan.
+9. Data  pesanan pelanggan akan masuk ke dalam riwayat pesanan.
+10. Jika Koki, akan ditampilkan riwayat pesanan berupa database username, password, dan daftar pesanan milik Pelanggan.
 
 # SiteMap
 ![SiteMap Resto Wenaak](https://github.com/user-attachments/assets/9e5b00d3-83b7-4339-bb20-cc686643dc13)
