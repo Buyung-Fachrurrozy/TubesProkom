@@ -18,6 +18,9 @@ Aplikasi Restoran Wenaak dapat diakses oleh pelanggan dan koki. Restoran menawar
 8. Berbagai macam metode pembayaran tersedia, seperti transfer bank, QRIS, dan pembayaran tunai.
 9. Jika Koki, akan ditampilkan database username, password, dan daftar Pesanan milik Pelanggan.
 
+# SiteMap
+![SiteMap Resto Wenaak](https://github.com/user-attachments/assets/9e5b00d3-83b7-4339-bb20-cc686643dc13)
+
 # Flowchart
 <img width="325" alt="Flowchart Program Pemesanan" src="https://github.com/user-attachments/assets/74dbc128-83aa-4cda-9ce1-8e20cc76ab8f">
 
@@ -25,11 +28,13 @@ Aplikasi Restoran Wenaak dapat diakses oleh pelanggan dan koki. Restoran menawar
 ![Flowchart Restoran Wenaak-SubProgram Login Restoran Wenaak drawio](https://github.com/user-attachments/assets/ebcc6f4d-f5ef-4a97-b8f5-07a387a20fe6)
 ![Flowchart Restoran Wenaak-Flowchart Program drawio](https://github.com/user-attachments/assets/f9b49a59-3401-4e03-beb0-69ce9fbc2f98)
 
-# Flowchart Revisi 2 (FIX)
+# Flowchart Revisi 2
 ![Flowchart Restoran Wenaak](https://github.com/user-attachments/assets/8459cc72-4828-49ee-ba50-1c2ade047171)
 
-# SiteMap
-![SiteMap Resto Wenaak](https://github.com/user-attachments/assets/9e5b00d3-83b7-4339-bb20-cc686643dc13)
+# Flowchart Revisi 3 (FIX)
+![Flowchart Resto Wenaak](https://github.com/user-attachments/assets/c24f5650-7410-4bed-8872-c84faab2bd5a)
+
+
 
 
 
