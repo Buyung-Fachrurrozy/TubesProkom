@@ -28,7 +28,8 @@ Aplikasi Restoran Wenaak dapat diakses oleh pelanggan dan koki. Restoran menawar
 ![SiteMap Resto Wenaak](https://github.com/user-attachments/assets/9e5b00d3-83b7-4339-bb20-cc686643dc13)
 
 # Flowchart Resto Wenaak
-![Flowchart Resto Wenaak](https://github.com/user-attachments/assets/c24f5650-7410-4bed-8872-c84faab2bd5a)
+![Flowchart Resto Wenaak](https://github.com/user-attachments/assets/f7115e91-4781-4c7c-8019-a129447a5cbf)
+
 * Penjelasan:
 Flowchart aplikasi restoran "Wenaak" menggambarkan alur kerja yang dimulai dari proses login hingga penyelesaian transaksi, baik bagi pelanggan maupun koki. Program diawali dengan login, di mana pengguna dapat memilih untuk masuk sebagai pelanggan atau koki. Jika pengguna memilih login sebagai pelanggan, mereka akan diberikan opsi untuk Sign Up atau login. Proses Sign Up akan menyimpan data username dan password ke dalam database, memungkinkan pelanggan untuk melanjutkan login.
 
