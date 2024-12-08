@@ -1,0 +1,432 @@
+{
+    "pesanan": [
+        {
+            "tanggal": "2024-12-06 11:03:24",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "LONTONG KUPANG",
+                    "harga_per_item": 13000,
+                    "jumlah": 2,
+                    "total_harga": 26000
+                }
+            ],
+            "total_semua_pesanan": 26000
+        },
+        {
+            "tanggal": "2024-12-06 11:16:25",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "LELE",
+                    "harga_per_item": 12000,
+                    "jumlah": 2,
+                    "total_harga": 24000
+                }
+            ],
+            "total_semua_pesanan": 24000
+        },
+        {
+            "tanggal": "2024-12-06 11:27:56",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "KARE",
+                    "harga_per_item": 10000,
+                    "jumlah": 2,
+                    "total_harga": 20000
+                }
+            ],
+            "total_semua_pesanan": 20000
+        },
+        {
+            "tanggal": "2024-12-06 11:28:18",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "KARE",
+                    "harga_per_item": 10000,
+                    "jumlah": 2,
+                    "total_harga": 20000
+                }
+            ],
+            "total_semua_pesanan": 20000
+        },
+        {
+            "tanggal": "2024-12-06 11:29:41",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "GADO-GADO",
+                    "harga_per_item": 12000,
+                    "jumlah": 2,
+                    "total_harga": 24000
+                }
+            ],
+            "total_semua_pesanan": 24000
+        },
+        {
+            "tanggal": "2024-12-06 11:29:53",
+            "metode_pembayaran": "Transfer Bank",
+            "detail_pesanan": [
+                {
+                    "menu": "GADO-GADO",
+                    "harga_per_item": 12000,
+                    "jumlah": 2,
+                    "total_harga": 24000
+                }
+            ],
+            "total_semua_pesanan": 24000
+        },
+        {
+            "tanggal": "2024-12-06 12:37:49",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "KETOPRAK",
+                    "harga_per_item": 12000,
+                    "jumlah": 3,
+                    "total_harga": 36000
+                }
+            ],
+            "total_semua_pesanan": 36000
+        },
+        {
+            "tanggal": "2024-12-06 12:40:44",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "KETOPRAK",
+                    "harga_per_item": 12000,
+                    "jumlah": 2,
+                    "total_harga": 24000
+                }
+            ],
+            "total_semua_pesanan": 24000
+        },
+        {
+            "tanggal": "2024-12-06 12:48:35",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "GADO-GADO",
+                    "harga_per_item": 12000,
+                    "jumlah": 2,
+                    "total_harga": 24000
+                }
+            ],
+            "total_semua_pesanan": 24000
+        },
+        {
+            "tanggal": "2024-12-06 12:49:08",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "KAKAP",
+                    "harga_per_item": 14000,
+                    "jumlah": 2,
+                    "total_harga": 28000
+                }
+            ],
+            "total_semua_pesanan": 28000
+        },
+        {
+            "tanggal": "2024-12-06 12:50:28",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "GADO-GADO",
+                    "harga_per_item": 12000,
+                    "jumlah": 3,
+                    "total_harga": 36000
+                }
+            ],
+            "total_semua_pesanan": 36000
+        },
+        {
+            "tanggal": "2024-12-06 12:53:29",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "BIAWAK GORENG",
+                    "harga_per_item": 75000,
+                    "jumlah": 4,
+                    "total_harga": 300000
+                }
+            ],
+            "total_semua_pesanan": 300000
+        },
+        {
+            "tanggal": "2024-12-06 12:54:05",
+            "metode_pembayaran": "Transfer Bank",
+            "detail_pesanan": [
+                {
+                    "menu": "KARE",
+                    "harga_per_item": 10000,
+                    "jumlah": 2,
+                    "total_harga": 20000
+                }
+            ],
+            "total_semua_pesanan": 20000
+        },
+        {
+            "tanggal": "2024-12-06 12:54:17",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "KARE",
+                    "harga_per_item": 10000,
+                    "jumlah": 2,
+                    "total_harga": 20000
+                }
+            ],
+            "total_semua_pesanan": 20000
+        },
+        {
+            "tanggal": "2024-12-06 12:56:52",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "WAKA WAKA",
+                    "harga_per_item": 90000,
+                    "jumlah": 1,
+                    "total_harga": 90000
+                }
+            ],
+            "total_semua_pesanan": 90000
+        },
+        {
+            "tanggal": "2024-12-06 13:05:01",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "SOTO",
+                    "harga_per_item": 10000,
+                    "jumlah": 1,
+                    "total_harga": 10000
+                }
+            ],
+            "total_semua_pesanan": 10000
+        },
+        {
+            "tanggal": "2024-12-06 13:08:52",
+            "metode_pembayaran": "Transfer Bank",
+            "detail_pesanan": [
+                {
+                    "menu": "MOJITO",
+                    "harga_per_item": 10000,
+                    "jumlah": 1,
+                    "total_harga": 10000
+                }
+            ],
+            "total_semua_pesanan": 10000
+        },
+        {
+            "tanggal": "2024-12-06 13:09:52",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "LONTONG KUPANG",
+                    "harga_per_item": 13000,
+                    "jumlah": 1,
+                    "total_harga": 13000
+                }
+            ],
+            "total_semua_pesanan": 13000
+        },
+        {
+            "tanggal": "2024-12-06 13:10:33",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "WAKA WAKA",
+                    "harga_per_item": 90000,
+                    "jumlah": 1,
+                    "total_harga": 90000
+                }
+            ],
+            "total_semua_pesanan": 90000
+        },
+        {
+            "tanggal": "2024-12-06 13:11:12",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "WAKA WAKA",
+                    "harga_per_item": 90000,
+                    "jumlah": 1,
+                    "total_harga": 90000
+                }
+            ],
+            "total_semua_pesanan": 90000
+        },
+        {
+            "tanggal": "2024-12-06 13:18:27",
+            "metode_pembayaran": "Transfer Bank",
+            "detail_pesanan": [
+                {
+                    "menu": "LELE",
+                    "harga_per_item": 12000,
+                    "jumlah": 2,
+                    "total_harga": 24000
+                }
+            ],
+            "total_semua_pesanan": 24000
+        },
+        {
+            "tanggal": "2024-12-06 16:20:31",
+            "metode_pembayaran": "Transfer Bank",
+            "detail_pesanan": [
+                {
+                    "menu": "LONTONG KUPANG",
+                    "harga_per_item": 13000,
+                    "jumlah": 1,
+                    "total_harga": 13000
+                }
+            ],
+            "total_semua_pesanan": 13000
+        },
+        {
+            "tanggal": "2024-12-07 15:51:05",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "KAKAP",
+                    "harga_per_item": 14000,
+                    "jumlah": 2,
+                    "total_harga": 28000
+                }
+            ],
+            "total_semua_pesanan": 28000
+        },
+        {
+            "tanggal": "2024-12-07 16:43:28",
+            "metode_pembayaran": "Transfer Bank",
+            "detail_pesanan": [
+                {
+                    "menu": "ES SUSU",
+                    "harga_per_item": 4000,
+                    "jumlah": 3,
+                    "total_harga": 12000
+                }
+            ],
+            "total_semua_pesanan": 12000
+        },
+        {
+            "tanggal": "2024-12-07 16:49:40",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "ES SIRUP",
+                    "harga_per_item": 4000,
+                    "jumlah": 2,
+                    "total_harga": 8000
+                }
+            ],
+            "total_semua_pesanan": 8000
+        },
+        {
+            "tanggal": "2024-12-07 16:54:08",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "ES SIRUP",
+                    "harga_per_item": 4000,
+                    "jumlah": 2,
+                    "total_harga": 8000
+                }
+            ],
+            "total_semua_pesanan": 8000
+        },
+        {
+            "tanggal": "2024-12-07 16:54:53",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "ES SUSU",
+                    "harga_per_item": 4000,
+                    "jumlah": 2,
+                    "total_harga": 8000
+                }
+            ],
+            "total_semua_pesanan": 8000
+        },
+        {
+            "tanggal": "2024-12-07 18:33:21",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "GADO-GADO",
+                    "harga_per_item": 12000,
+                    "jumlah": 1,
+                    "total_harga": 12000
+                }
+            ],
+            "total_semua_pesanan": 12000
+        },
+        {
+            "tanggal": "2024-12-08 09:35:13",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "KARE",
+                    "harga_per_item": 10000,
+                    "jumlah": 1,
+                    "total_harga": 10000
+                }
+            ],
+            "total_semua_pesanan": 10000
+        },
+        {
+            "tanggal": "2024-12-08 09:37:22",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "KAKAP",
+                    "harga_per_item": 14000,
+                    "jumlah": 1,
+                    "total_harga": 14000
+                }
+            ],
+            "total_semua_pesanan": 14000
+        },
+        {
+            "tanggal": "2024-12-08 09:43:18",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "LELE",
+                    "harga_per_item": 12000,
+                    "jumlah": 1,
+                    "total_harga": 12000
+                },
+                {
+                    "menu": "ES DURIAN",
+                    "harga_per_item": 15000,
+                    "jumlah": 1,
+                    "total_harga": 15000
+                }
+            ],
+            "total_semua_pesanan": 27000
+        },
+        {
+            "tanggal": "2024-12-08 09:46:26",
+            "metode_pembayaran": "QRIS",
+            "detail_pesanan": [
+                {
+                    "menu": "BUBUR AYAM",
+                    "harga_per_item": 10000,
+                    "jumlah": 1,
+                    "total_harga": 10000
+                },
+                {
+                    "menu": "ES KOPYOR",
+                    "harga_per_item": 12000,
+                    "jumlah": 1,
+                    "total_harga": 12000
+                }
+            ],
+            "total_semua_pesanan": 22000
+        }
+    ]
+}
