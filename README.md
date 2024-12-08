@@ -1,7 +1,7 @@
 # KELAS A, KELOMPOK 4, Daftar Anggota Kelompok:
 # Anggota Team:
 1. I0324011, Ida Fatkhur Rohmah, IdaFatkhur
-2. I0324039, Buyung Fachrurrozy Amrulloh, Buyung-Fachrurrozy
+2. I0324039, Buyung Fachrurrozy Amrullah, Buyung-Fachrurrozy
 3. I0324022, Rafeyfa Asyla Suryawan, Rafeyfa-Asyla
 
 # Deskripsi
