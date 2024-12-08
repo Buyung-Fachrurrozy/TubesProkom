@@ -14,7 +14,6 @@ orders_data_file = "riwayatpesanan.json"
 
 def sistem_JSON(username=None, password=None):
 
-    # Membuat file JSON jika belum ada
     if not os.path.exists(customer_data_file):
         with open(customer_data_file, 'w') as file:
             json.dump({}, file)
@@ -23,22 +22,19 @@ def sistem_JSON(username=None, password=None):
         with open(orders_data_file, 'w') as file:
             json.dump([], file)
 
-    # Validasi login jika username dan password diberikan
     if username and password:
         with open(customer_data_file, 'r') as file:
             data = json.load(file)
         return data.get(username) == password
 
-    # Jangan memunculkan pop-up pada pemanggilan awal
     return True
 
 
 def show_customer_login():
     print("show_customer_login called")
-    # Jendela login pelanggan
     window_customer_login = tk.Toplevel()
     window_customer_login.title("Login Pelanggan")
-    window_customer_login.geometry("300x200")# Ukuran standar popup
+    window_customer_login.geometry("300x200")
     window_customer_login.configure(bg="#256b4a")
 
     frame = tk.Frame(window_customer_login, padx=20, pady=20, bg="#256b4a")
@@ -55,7 +51,7 @@ def show_customer_login():
     def login_customer():
         username = entry_username.get()
         password = entry_password.get()
-        if username.strip() and password.strip():  # Validasi input
+        if username.strip() and password.strip():
             with open(customer_data_file, 'r') as file:
                 data = json.load(file)
             if username in data and data[username] == password:
@@ -71,15 +67,15 @@ def show_customer_login():
     tk.Button(frame, text="Login", bg="#fafaf0", fg="#256b4a", command=login_customer, width=15).grid(row=2, column=0, columnspan=2, pady=10)
     tk.Button(frame, text="Sign Up", bg="#fafaf0", fg="#256b4a", command=show_sign_up, width=15).grid(row=3, column=0, columnspan=2, pady=10)
 
-    window_customer_login.transient(root)  # Jendela mengikuti root
-    window_customer_login.grab_set()  # Fokus pada jendela ini
+    window_customer_login.transient(root) 
+    window_customer_login.grab_set() 
 
 
 def show_sign_up():
     print("show_sign_up called")
     window_sign_up = tk.Toplevel()
     window_sign_up.title("Sign Up")
-    window_sign_up.geometry("300x200")# Ukuran standar popup
+    window_sign_up.geometry("300x200")
     window_sign_up.configure(bg="#256b4a")
 
     frame = tk.Frame(window_sign_up, padx=20, pady=20, bg="#256b4a")
@@ -113,8 +109,8 @@ def show_sign_up():
 
     tk.Button(frame, text="Sign Up", bg="#fafaf0", fg="#256b4a", command=perform_signup, width=15).grid(row=2, column=0, columnspan=2, pady=10)
 
-    window_sign_up.transient(root)  # Jendela mengikuti root
-    window_sign_up.grab_set()  # Fokus pada jendela ini
+    window_sign_up.transient(root)  
+    window_sign_up.grab_set() 
 
 
 def chef_login():
@@ -124,9 +120,9 @@ def chef_login():
 
         if username == "kokikeren" and password == "prokomseru":
             messagebox.showinfo("Sukses", "Login berhasil sebagai koki!")
-            root.destroy()  # Tutup jendela login
+            root.destroy()  
             import muatdata
-            #subprocess.run(["python", "muatdata.py", "--show-orders"])  # Jalankan tubes_prokom untuk menampilkan pesanan
+           
         else:
             messagebox.showerror("Error", "Username atau Password salah!")
 
@@ -148,7 +144,7 @@ def chef_login():
     tk.Button(frame, text="Login", bg="#fafaf0", fg="#256b4a", command=verify_chef, width=15).grid(row=2, columnspan=2, pady=10)
 
 def show_orders():
-    # Membuka file riwayat pesanan
+   
     with open("riwayatpesanan.json", 'r') as file:
         orders = json.load(file)
 
