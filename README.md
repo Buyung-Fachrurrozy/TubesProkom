@@ -4,10 +4,10 @@
 2. I0324039, Buyung Fachrurrozy Amrullah, Buyung-Fachrurrozy
 3. I0324022, Rafeyfa Asyla Suryawan, Rafeyfa-Asyla
 
-# Deskripsi Aplikasi Restoran Wenaak
-Aplikasi Restoran Wenaak dapat diakses oleh pelanggan dan koki. Restoran menawarkan beragam pilihan makanan dan minuman yang dapat dipilih sesuai preferensi pelanggan. Melalui aplikasi ini, pelanggan dapat dengan mudah melihat, memilih, dan memesan menu berdasarkan kategori yang tersedia dan jumlah porsi yang diinginkan. Selain itu, aplikasi ini menyediakan berbagai metode pembayaran yang fleksibel dan praktis, memungkinkan pelanggan menyelesaikan transaksi dengan cepat dan nyaman. Bagi koki restoran, aplikasi ini berguna untuk melihat semua pesanan yang sudah ditambahkan oleh pelanggan sebelumnya. 
+# Deskripsi Aplikasi Resto Wenaak
+Aplikasi Resto Wenaak dapat diakses oleh pelanggan dan koki. Restoran menawarkan beragam pilihan makanan dan minuman yang dapat dipilih sesuai preferensi pelanggan. Melalui aplikasi ini, pelanggan dapat dengan mudah melihat, memilih, dan memesan menu berdasarkan kategori yang tersedia dan jumlah porsi yang diinginkan. Selain itu, aplikasi ini menyediakan berbagai metode pembayaran yang fleksibel dan praktis, memungkinkan pelanggan menyelesaikan transaksi dengan cepat dan nyaman. Bagi koki restoran, aplikasi ini berguna untuk melihat semua pesanan yang sudah ditambahkan oleh pelanggan sebelumnya. 
 
-# Fitur-Fitur Aplikasi RESTORAN WENAAK
+# Fitur-Fitur Aplikasi Resto Wenaak
 1. Login pengguna (pelanggan atau koki).
 2. Jika Pelanggan, ditampilkan menu makanan dan minuman.
 3. Gambar menu dan penambahan jumlah menu sesuai yang diinginkan pelanggan.
