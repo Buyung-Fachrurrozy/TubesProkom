@@ -32,7 +32,7 @@ Aplikasi Restoran Wenaak dapat diakses oleh pelanggan dan koki. Restoran menawar
 
 * Penjelasan:
 
-Flowchart aplikasi restoran "Wenaak" menggambarkan alur kerja yang dimulai dari proses login hingga penyelesaian transaksi, baik bagi pelanggan maupun koki. Program diawali dengan login, di mana pengguna dapat memilih untuk masuk sebagai pelanggan atau koki. Jika pengguna memilih login sebagai pelanggan, mereka akan diberikan opsi untuk Sign Up atau login. Proses Sign Up akan menyimpan data username dan password ke dalam database, memungkinkan pelanggan untuk melanjutkan login.
+Flowchart aplikasi Resto Wenaak menggambarkan alur kerja yang dimulai dari proses login hingga penyelesaian transaksi, baik bagi pelanggan maupun koki. Program diawali dengan login, di mana pengguna dapat memilih untuk masuk sebagai pelanggan atau koki. Jika pengguna memilih login sebagai pelanggan, mereka akan diberikan opsi untuk Sign Up atau login. Proses Sign Up akan menyimpan data username dan password ke dalam database, memungkinkan pelanggan untuk melanjutkan login.
 
 Setelah berhasil login, pelanggan akan disajikan dengan pilihan menu makanan dan minuman yang dilengkapi dengan deskripsi, harga, dan gambar menu. Pelanggan dapat memilih menu makanan dan minuman sesuai dengan jumlah porsi yang diinginkan. Apabila pelanggan tidak memilih menu apapun, program akan menampilkan pesan "belum ada pesanan yang ditambahkan," yang mengharuskan pelanggan untuk memilih menu atau keluar dari aplikasi.
 
