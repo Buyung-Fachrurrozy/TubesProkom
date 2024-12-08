@@ -11,11 +11,9 @@ os.environ["TK_LIBRARY"] = r"C:\Program Files\Python313\tcl\tk8.6"
 
 
 
-# Definisikan path file JSON
 JSON_FILE_PATH = "D:/TubesProkom/riwayatpesanan.json"
 
 
-# Data menu makan dan minum dengan menu yang diperluas
 menu_makan = {
     "GADO-GADO": 12000,
     "LOTEK": 12000,
@@ -62,9 +60,7 @@ menu_minum = {
     "PISANG IJO": 10000
 }
 
-# Dictionary untuk menyimpan entry fields
 entry_fields = {}
-# Menyimpan pesanan
 pesanan = []
 
 
@@ -73,10 +69,8 @@ def simpan_ke_json(metode_pembayaran=None):
         messagebox.showwarning("Peringatan", "Belum ada pesanan untuk disimpan!")
         return
 
-    # Memastikan direktori ada
     os.makedirs(os.path.dirname(JSON_FILE_PATH), exist_ok=True)
 
-    # Membaca data lama (jika ada)
     try:
         if os.path.exists(JSON_FILE_PATH):
             with open(JSON_FILE_PATH, "r", encoding="utf-8") as file:
@@ -86,7 +80,6 @@ def simpan_ke_json(metode_pembayaran=None):
     except json.JSONDecodeError:
         riwayat_data = {"pesanan": []}
 
-    # Tambahkan pesanan baru
     pesanan_baru = {
         "tanggal": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "metode_pembayaran": metode_pembayaran,
@@ -104,7 +97,6 @@ def simpan_ke_json(metode_pembayaran=None):
 
     riwayat_data["pesanan"].append(pesanan_baru)
 
-    # Simpan kembali ke file JSON
     with open(JSON_FILE_PATH, "w", encoding="utf-8") as file:
         json.dump(riwayat_data, file, ensure_ascii=False, indent=4)
 
@@ -233,21 +225,21 @@ def buka_window_menu(menu_data, title):
     def tampilkan_gambar(menu):
         global foto_gambar
         try:
-            # Lokasi file gambar menu
+    
             image_path = r"D:\TubesProkom\foto_menu\{}.png".format(menu.lower().replace(' ', '_'))
             
-            # Muat gambar menu
+
             img = Image.open(image_path)
             img = img.resize((350, 350))
             foto_gambar = ImageTk.PhotoImage(img)
             canvas_gambar.delete(tk.ALL)
             
-            # Posisi untuk menempatkan gambar di tengah canvas
+
             x_position = (canvas_gambar.winfo_width() // 2)
             y_position = (canvas_gambar.winfo_height() // 2)
             canvas_gambar.create_image(x_position, y_position, image=foto_gambar, anchor="center")
            
-            # Simpan Referensi untuk Menghindari Garbages Collection
+
             canvas_gambar.image=foto_gambar
            
         except FileNotFoundError:
@@ -283,12 +275,12 @@ def buka_window_pembayaran():
         total = hitung_total_pesanan()
     
         if metode == "QRIS":
-            # Membuat jendela Toplevel untuk pembayaran QRIS
+ 
             top = tk.Toplevel(bg="#256b4a")
             top.title("Pembayaran QRIS")
             top.resizable(False, False)
 
-            # Mengatur ukuran jendela
+
             window_width = 350
             window_height = 400
             screen_width = top.winfo_screenwidth()
@@ -297,18 +289,17 @@ def buka_window_pembayaran():
             position_y = (screen_height // 2) - (window_height // 2)
             top.geometry(f"{window_width}x{window_height}+{position_x}+{position_y}")
 
-            # Membuat label untuk pesan
+
             message_label = tk.Label(top, text=f"Silakan scan QR code untuk membayar\nTotal: Rp{total:,}", bg="#256b4a", fg="#fafaf0")
             message_label.pack(pady=10)
 
-            # Memuat dan mengubah ukuran gambar barcode menggunakan Pillow
+
             img_path = 'barcode.png' 
             if os.path.exists(img_path):
                 img_original = Image.open(img_path)
                 img_resized = img_original.resize((290, 290))  
                 img_barcode = ImageTk.PhotoImage(img_resized)
 
-                # Menampilkan gambar barcode
                 img_barcode_label = tk.Label(top, image=img_barcode)
                 img_barcode_label.image = img_barcode 
                 img_barcode_label.pack(pady=10)
@@ -318,7 +309,7 @@ def buka_window_pembayaran():
             def on_close_qris():
                 if messagebox.askyesno("Konfirmasi", "Apakah Anda yakin ingin menutup jendela?"):
                     simpan_ke_json(metode)
-                    top.destroy()  # Tutup jendela QRIS
+                    top.destroy()
                     reset_pesanan() 
 
             # Kaitkan fungsi on_close_qris ke tombol silang (X)
@@ -337,7 +328,7 @@ def buka_window_pembayaran():
                           f"Silahkan menuju ke kasir, total yang harus dibayar: Rp{total:,}")
     
         if messagebox.askyesno("Konfirmasi", "Apakah pembayaran sudah selesai?"):
-            simpan_ke_json(metode)  # Kirimkan metode pembayaran
+            simpan_ke_json(metode) 
             reset_pesanan()
             messagebox.showinfo("Sukses", "Terima kasih atas kunjungan Anda!")
 
