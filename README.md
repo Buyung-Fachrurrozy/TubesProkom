@@ -30,6 +30,10 @@ Aplikasi Resto Wenaak dapat diakses oleh pelanggan dan koki. Restoran menawarkan
 # Flowchart Resto Wenaak
 ![Flowchart Resto Wenaak](https://github.com/user-attachments/assets/f7115e91-4781-4c7c-8019-a129447a5cbf)
 
+# Flowchart Resto Wenaak (Revisi)
+![Flowchart Restoran Wenaak-Salinan nyoba drawio (1)](https://github.com/user-attachments/assets/7834060f-f89e-4960-9832-8d001ae0f4f1)
+
+
 * Penjelasan:
 
 Flowchart aplikasi Resto Wenaak menggambarkan alur kerja yang dimulai dari proses login hingga penyelesaian transaksi, baik bagi pelanggan maupun koki. Program diawali dengan login, di mana pengguna dapat memilih untuk masuk sebagai pelanggan atau koki. Jika pengguna memilih login sebagai pelanggan, mereka akan diberikan opsi untuk Sign Up atau login. Proses Sign Up akan menyimpan data username dan password ke dalam database, memungkinkan pelanggan untuk melanjutkan login.
